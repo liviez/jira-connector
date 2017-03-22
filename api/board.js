@@ -126,6 +126,7 @@ function AgileBoardClient(jiraClient) {
       json: true,
       followAllRedirects: true,
       qs: {
+        state: opts.state,
         startAt: opts.startAt,
         maxResults: opts.maxResults
       }
